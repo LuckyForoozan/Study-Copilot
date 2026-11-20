@@ -18,28 +18,7 @@
 
 ## 🏗️ Architecture & Pipeline
 
-
-[PDF Upload]
-     │
-     ├──► PyMuPDF: Page-to-Image Rendering
-     │        └──► Groq Llama 3.2 Vision (Diagrams, Icons & Layout Analysis)
-     └──► Text Extraction & Recursive Chunking
-              │
-              ├──► ChromaDB (Dense Vector Search via all-MiniLM-L6-v2)
-              └──► BM25 (Sparse Exact-Keyword Search)
-                       │
-                 [Hybrid Candidate Pool]
-                       │
-                 [Cross-Encoder Reranker]
-                       │
-                 [Top Context + Slide Images]
-                       │
-                 [Groq Agent Orchestrator]
-                   ├── Tool: Document Q&A (Page Citations)
-                   ├── Tool: DuckDuckGo Live Search
-                   └── Tool: Flashcard Generator
-                       │
-                 [Streamlit Interactive UI]
+<img width="2200" height="1350" alt="image" src="https://github.com/user-attachments/assets/d59af1dd-92fa-4992-af90-59bb14a786af" />
 
 
 
