@@ -1,0 +1,13 @@
+streamlit
+google-genai
+groq
+pypdf
+chromadb
+duckduckgo-search
+langchain-text-splitters
+fastembed
+pymupdf
+
+
+
+
